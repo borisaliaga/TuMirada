@@ -1,0 +1,275 @@
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #444;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 40px 20px;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 42px;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  header video {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.6;
+  }
+  
+  header p {
+    font-size: 20px;
+    color: #d1d1d1;
+    margin-top: 25px;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif; /* Aplicar la fuente Poppins */
+    background-color: #f7f7f7; /* Color de fondo suave */
+    color: #333; /* Color del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+h1, h2, h3 {
+    color: #4a90e2; /* Color de encabezados */
+    font-weight: 600; /* Peso de la fuente */
+}
+
+p {
+    font-size: 1.1em; /* Tamaño del texto de los párrafos */
+    margin-bottom: 1em; /* Margen inferior para separación */
+}
+
+a {
+    color: #4a90e2; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado en hover */
+}
+
+  /* Estilo del body */
+body {
+    font-family: 'Poppins', sans-serif; /* Fuente moderna y juvenil */
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Fondo claro */
+    color: #333; /* Color de texto oscuro para buena legibilidad */
+}
+
+/* Estilo de encabezados */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; /* Negrita para los encabezados */
+    color: #ff6f61; /* Color de marca */
+    text-transform: uppercase;
+}
+
+/* Estilo de párrafos */
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #666;
+    font-size: 18px; /* Ajuste de tamaño para legibilidad */
+    line-height: 1.8;
+}
+
+  
+  /* Estilos para la sección de servicios */
+  #servicios {
+    padding: 40px 20px;
+    background-color: #ffffff;
+  }
+  
+  #servicios h2 {
+    text-align: center;
+    font-size: 34px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .servicio {
+    background-color: #fafafa;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .servicio:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .servicio h3 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .servicio img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .servicio p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .servicio button {
+    background-color: #ff6f61;
+    color: #ffffff;
+    border: none;
+    padding: 12px 18px;
+    margin: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .servicio button:hover {
+    background-color: #e55a4f;
+  }
+  
+  /* Estilos para comentarios */
+  #comentarios {
+    background-color: #f7f9fc;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #comentarios h2 {
+    font-size: 34px;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  #comentarios p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Estilos para ubicación */
+  #ubicacion {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+  }
+  
+  #ubicacion h2 {
+    font-size: 34px;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  #ubicacion p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  iframe {
+    width: 80%;
+    max-width: 600px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Estilos para redes sociales */
+  #redes-sociales {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f7f9fc;
+  }
+  
+  #redes-sociales h2 {
+    font-size: 34px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  #redes-sociales a {
+    display: inline-block;
+    margin: 10px;
+    color: #444;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #redes-sociales a:hover {
+    color: #ff6f61;
+    transform: scale(1.1);
+  }
+  
+  .logo-tu-mirada {
+    width: 120px;
+    margin-bottom: 30px;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+
+/* Botón flotante de WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    font-family: Arial, sans-serif;
+  }
+  
+  .whatsapp-float:hover {
+    background-color: #1ebe5b;
+  }
+  
+  .whatsapp-float img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .whatsapp-float span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
